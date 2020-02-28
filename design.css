@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Poppins';
+}
+/* header here */
+header {
+    display: flex;
+    display: inline;
+}
+/* navigation here */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 10px;
+}
+
+nav img {
+    width: 50px;
+    margin-left: 2%;
+}
+
+/* box and map here */
+.main-box{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box {
+    background-color: white;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 15% 0%;
+    box-shadow: 0 2px 5px grey;
+    opacity: 0;
+}
+
+.indomap {
+    margin: 5% 10%;
+    width: 80%;
+    opacity: 0;
+}
+
+/* main */
+
+#main {
+    display: inline-flex;
+}
+
+.main {
+    width: 50%;
+    /* padding-right: 100px; */
+}
+
+.main2 {
+    background-color: transparent;
+    width: 100%;
+    margin: 0 30px;
+    padding: 110px 5px;
+    text-align: center;
+}
+
+
+/* footer here */
+
+footer {
+    background-color: #C8E9F1;
+    height: 300px;
+    /* margin: 5% 0; */
+    margin: 0;
+    display: flex;
+    padding: 25px 25px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer2 ul{
+    list-style-type: none;
+}
+
+
+/* diagram and data  here */
+.data {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    margin: 25px 0;
+}
+.diagram{
+    width: 60%;
+    justify-content: center;
+}
+
+/* signin gere */
+.signin {
+    border-style: none;
+}
+.signinbig {
+    font-size: 70px;
+    margin-left: 5%;
+    font-family: 'Poppins';
+}
+.labelinput {
+    font-weight: bold;
+    margin-left: 55%;
+    font-family: 'Poppins';
+}
+label{
+    font-size: 30px;
+}
+input{
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin: 20px 0;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+/* index-box1 */
+
+.h1ib1 {
+    font-family: 'Poppins';
+    font-size: 70px;
+    text-align: center;
+}
+
+.h1ib1p0{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-box{
+    font-family: 'Poppins';
+}
+
+.main-box p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.alerting{
+    display: none;
+    box-shadow: 0 2px 5px grey;
+}
+
+nav ul li {
+    font-family: 'Poppins';
+    text-decoration: none;
+}
